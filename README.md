@@ -1,4 +1,4 @@
-# PhotonGun
+# PhotonGun (develop)
 
  
 Repository of PhotoGun project which is currently in developing stage
