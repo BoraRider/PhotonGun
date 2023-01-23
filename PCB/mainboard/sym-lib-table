@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "photon_components")(type "KiCad")(uri "${KIPRJMOD}/Lib/photon_components.kicad_sym")(options "")(descr ""))
+)
