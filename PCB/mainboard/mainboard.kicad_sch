@@ -2599,7 +2599,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 648f0900-74a3-41c6-b227-d63f975a0946)
     (property "Reference" "R?" (id 0) (at 73.66 46.8122 90))
-    (property "Value" "R_Small" (id 1) (at 73.66 49.3522 90))
+    (property "Value" "0,027" (id 1) (at 73.66 49.3522 90))
     (property "Footprint" "" (id 2) (at 73.66 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3019,7 +3019,7 @@
     (property "Reference" "R?" (id 0) (at 49.53 85.7249 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Small" (id 1) (at 49.53 88.2649 0)
+    (property "Value" "82,25k" (id 1) (at 49.53 88.2649 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 47.625 86.995 0)
@@ -3227,12 +3227,12 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 47.625 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid d11007e4-82dc-4aa4-88c2-79d141c915d4)
     (property "Reference" "R?" (id 0) (at 49.53 95.2499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Small" (id 1) (at 49.53 97.7899 0)
+    (property "Value" "47k" (id 1) (at 49.53 97.7899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 47.625 96.52 0)
@@ -3634,7 +3634,7 @@
       (reference "R?") (unit 1) (value "47k") (footprint "")
     )
     (path "/648f0900-74a3-41c6-b227-d63f975a0946"
-      (reference "R?") (unit 1) (value "R_Small") (footprint "")
+      (reference "R?") (unit 1) (value "0,027") (footprint "")
     )
     (path "/6c92cae8-6fcb-4b28-9679-24dcda080db9"
       (reference "R?") (unit 1) (value "I2C_VAL") (footprint "")
@@ -3646,13 +3646,13 @@
       (reference "R?") (unit 1) (value "11k") (footprint "")
     )
     (path "/b51b23e0-9454-40c4-b732-6059bb2fc6e1"
-      (reference "R?") (unit 1) (value "R_Small") (footprint "")
+      (reference "R?") (unit 1) (value "82,25k") (footprint "")
     )
     (path "/cc9c1450-7b97-4079-acc5-f11bfc15cddb"
       (reference "R?") (unit 1) (value "R_Small") (footprint "")
     )
     (path "/d11007e4-82dc-4aa4-88c2-79d141c915d4"
-      (reference "R?") (unit 1) (value "R_Small") (footprint "")
+      (reference "R?") (unit 1) (value "47k") (footprint "")
     )
     (path "/e384bd8b-34f2-464f-b802-f02f9a2f18c4"
       (reference "R?") (unit 1) (value "I2C_VAL") (footprint "")
